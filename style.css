@@ -269,6 +269,65 @@ form.sign-in-form {
 .container.sign-up-mode .right-panel {
   pointer-events: all;
 }
+.footer{
+  background:#333;
+}
+
+.footer .box-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+  margin:1.5rem;
+  text-align: center;
+  flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.0rem;
+  color:#fff;
+  padding:1rem 0;
+}
+
+.footer .box-container .box p{
+  font-size: 1.3rem;
+  color:#eee;
+  padding:.7rem 0;
+}
+
+.footer .box-container .box p i{
+  padding-right: .5rem;
+  color:#f39c12;
+}
+
+.footer .box-container .box a{
+  font-size: 1.2rem;
+  display: block;
+  padding:.5rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a:hover{
+  text-decoration: underline;
+}
+
+.footer .credit{
+  padding:2rem 1rem;
+  font-size: 1.5rem;
+  color:#fff;
+  background:#111;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 9rem;
+}
+
+.footer .credit a{
+  color:#f39c12
+}
+
+
 
 @media (max-width: 870px) {
   .container {
